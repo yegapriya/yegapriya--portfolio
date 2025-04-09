@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.37a8401a.css",
-    "main.js": "/static/js/main.3616c3df.js",
-    "static/js/453.d0ded385.chunk.js": "/static/js/453.d0ded385.chunk.js",
-    "static/media/project-1.png": "/static/media/project-1.27930c97519fc55445f4.png",
-    "static/media/rate-calculator.png": "/static/media/rate-calculator.301faa1f26921bfe1b4d.png",
-    "static/media/project-2.png": "/static/media/project-2.6d355c17f8e71f2e2cf6.png",
-    "static/media/profile.jpg": "/static/media/profile.00eb3c391c312f685ac5.jpg",
-    "static/media/bgimg.jpeg": "/static/media/bgimg.52c4b906acbad1f1123f.jpeg",
-    "static/media/YEGAPRIYA-RES.pdf": "/static/media/YEGAPRIYA-RES.a87d3b707870a08e8c79.pdf",
-    "static/media/signin-page.png": "/static/media/signin-page.1946fd95df3ccdb24e8e.png",
-    "static/media/login-page.png": "/static/media/login-page.281ca6e2225c61994367.png",
-    "static/media/usercreator.png": "/static/media/usercreator.3b19019eb8fe5412791a.png",
-    "index.html": "/index.html",
-    "main.37a8401a.css.map": "/static/css/main.37a8401a.css.map",
-    "main.3616c3df.js.map": "/static/js/main.3616c3df.js.map",
-    "453.d0ded385.chunk.js.map": "/static/js/453.d0ded385.chunk.js.map"
+    "main.css": "/yegapriya--portfolio/static/css/main.ffd2834a.css",
+    "main.js": "/yegapriya--portfolio/static/js/main.adc991d8.js",
+    "static/js/453.d0ded385.chunk.js": "/yegapriya--portfolio/static/js/453.d0ded385.chunk.js",
+    "static/media/project-1.png": "/yegapriya--portfolio/static/media/project-1.27930c97519fc55445f4.png",
+    "static/media/rate-calculator.png": "/yegapriya--portfolio/static/media/rate-calculator.301faa1f26921bfe1b4d.png",
+    "static/media/project-2.png": "/yegapriya--portfolio/static/media/project-2.6d355c17f8e71f2e2cf6.png",
+    "static/media/profile.jpg": "/yegapriya--portfolio/static/media/profile.00eb3c391c312f685ac5.jpg",
+    "static/media/bgimg.jpeg": "/yegapriya--portfolio/static/media/bgimg.52c4b906acbad1f1123f.jpeg",
+    "static/media/YEGAPRIYA-RES.pdf": "/yegapriya--portfolio/static/media/YEGAPRIYA-RES.a87d3b707870a08e8c79.pdf",
+    "static/media/signin-page.png": "/yegapriya--portfolio/static/media/signin-page.1946fd95df3ccdb24e8e.png",
+    "static/media/login-page.png": "/yegapriya--portfolio/static/media/login-page.281ca6e2225c61994367.png",
+    "static/media/usercreator.png": "/yegapriya--portfolio/static/media/usercreator.3b19019eb8fe5412791a.png",
+    "index.html": "/yegapriya--portfolio/index.html",
+    "main.ffd2834a.css.map": "/yegapriya--portfolio/static/css/main.ffd2834a.css.map",
+    "main.adc991d8.js.map": "/yegapriya--portfolio/static/js/main.adc991d8.js.map",
+    "453.d0ded385.chunk.js.map": "/yegapriya--portfolio/static/js/453.d0ded385.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a8401a.css",
-    "static/js/main.3616c3df.js"
+    "static/css/main.ffd2834a.css",
+    "static/js/main.adc991d8.js"
   ]
 }
