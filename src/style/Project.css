@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.projects {
+    padding: 30px;
+    background-color: white;
+    margin-top: 70px;
+    animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.center-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-project h2 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.underline-project {
+    width: 80px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #34b7a7;
+    margin-top: 10px;
+}
+
+.center-project p {
+    text-align: center;
+    margin-top: 30px;
+    color: #444444;
+    font-family: "Roboto", sans-serif;
+}
+
+.project-links {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-style {
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: #34b7a7;
+    
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-menu-active{
+    border-radius: 20px;
+    background-color: #34b7a7;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+
+
+.project-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+   
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    transition: ease 0.4s;
+    
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: black;
+  
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    background: rgb(127,225,163);
+    background: linear-gradient(90deg, rgba(127,225,163,1) 0%, rgba(63,105,141,0.8128501400560224) 47%, rgba(37,212,167,1) 99%);
+   
+    transition: opacity 0.5s ease-in-out;
+}
+
+.project-image:hover .slide {
+    opacity: 1;
+}
+
+.slide p {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    padding: 5px;
+   font-weight: 500;
+   font-size: 15px;
+}
+
+.slide a {
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.slide a:hover {
+    color: #34b7a7; 
+}
+
+@media (max-width: 1028px) {
+    .projects {
+        padding: 50px;
+        margin-top: 90px;
+    }
+
+    .center-project h2 {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+
+    .underline-project {
+        width: 100px;
+        height: 4px;
+        margin-top: 15px;
+    }
+
+    .project-links {
+        flex-direction: row;
+    }
+
+    .link-style {
+        width: 80px; 
+    }
+
+    .project-items {
+        margin-top: 100px;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .project-items {
+        margin-top: 60px;
+        gap: 20px;
+    }
+
+    .project-item {
+        max-width: 90%;
+    }
+
+    .center-project h2 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .slide {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .projects {
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    .project-items {
+        margin-top: 50px;
+        gap: 15px;
+    }
+
+    .project-item {
+        max-width: 100%;
+    }
+
+    .center-project h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .project-links {
+        gap: 15px;
+    }
+
+    .link-style {
+        width: 70px;
+        height: 30px;
+    }
+}
